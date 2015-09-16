@@ -1,12 +1,39 @@
 # Lessigram
 
-Assignment: build a Facebook/Twitter integration to allow a user to add the Lessig flag icon or Lessig's glasses to their avatar.
+## Assignment
 
-Bonus points: 
+Build a Facebook/Twitter integration to allow a user to add the Lessig flag icon, Lessig's glasses or text to their avatar.
 
-  * A mobile app
-  * A portal site for viewing/liking/sharing
+1. User can auth with Facebook or Twitter
+2. User can upload or sideload images
+3. User can choose a variety of dimensions, including:
+  * Profile avatar (square)
+  * Facebook cover (851:315)
+  * Twitter cover (2500:500)
+  * LinkedIn cover (1400:425)
+4. User can position "stickers" on photo:
+  * Move
+  * Scale
+  * Rotate
+  * Delete
+5. User can choose from a variety of stickers, including:
+  * Larry's Glasses
+  * Lessig2016 flag logo
+  * "Feel the Nerd" (multiple lock-ups)
+6. User can share the result image on social media
+7. User can directly set their profile avatar or cover photo directly
 
+### Bonus points: 
+
+  * A mobile app with camera integration
+  * A portal site for viewing/liking/sharing avatars
+
+### Inspiration:
+
+![Example 1](https://github.com/Lessig2016/lessigram/blob/master/resources/examples/lessigram1_360.jpg)
+![Example 2](https://github.com/Lessig2016/lessigram/blob/master/resources/examples/lessigram2_360.jpg)
+![Example 3](https://github.com/Lessig2016/lessigram/blob/master/resources/examples/lessigram3_360.jpg)
+![Example 4](https://github.com/Lessig2016/lessigram/blob/master/resources/examples/lessigram4_360.jpg)
 
 ## Code of Conduct
 
