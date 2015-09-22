@@ -42,7 +42,7 @@ The Lessig Equal Citizens Exploratory Committee is committed to fostering an ope
 This project adheres to the [Open Code of Conduct](http://todogroup.org/opencodeofconduct/#Lessig2016/conduct@lessigforpresident.com). 
 By participating, you are expected to honor this code.
 
-This reference as well as the included copy of the [Code of Conduct](https://github.com/Lessig2016/pledgeservice/blob/master/CONDUCT.md)
+This reference as well as the included copy of the [Code of Conduct](https://github.com/Lessig2016/lessigram/blob/master/CONDUCT.md)
 shall be included in all forks and distributions of this repository.
 
 ## Legal
@@ -58,7 +58,7 @@ The campaign may remove any offensive, abusive, attacking, or discriminatory con
 ## Copyright and License
 
 Copyright 2015 Lessig Equal Citizens Exploratory Committee. This 
-project is released under [GNU Affero General Public License, version 3](https://github.com/Lessig2016/pledgeservice/blob/master/LICENSE).
+project is released under [GNU Affero General Public License, version 3](https://github.com/Lessig2016/lessigram/blob/master/LICENSE).
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
