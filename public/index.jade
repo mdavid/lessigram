@@ -1,0 +1,16 @@
+extend _layout
+
+block content
+  include _fbapi
+  header.container
+    a.logo(href="https://lessig2016.us/" rel="home")
+      img(src="https://lessig2016.us/wp-content/uploads/2015/09/logo.svg" alt="Lessig")
+    //- nav
+    //-   ul.nav.nav-pills.pull-right
+    //-     li:a(href="#facebook") Share
+    //-     li:a(href="#twitter") Tweet
+  main.container
+
+block scripts
+  script(src="//feather.aviary.com/imaging/v2/editor.js")
+  script(src="scripts/main.js")

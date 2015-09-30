@@ -1,0 +1,87 @@
+@import "/vendor/font-awesome-4.4.0/css/font-awesome.css"
+@import "bootstrap.css"
+// @import "bootstrap-theme.css"
+
+@import "_creative-sdk"
+@import "_fonts"
+
+
+
+$SANS_SERIF = proxima-nova, montserrat, helvetica neue, helvetica, arial, sans-serif
+$BLUE = #3952E7
+$RED = #FF4F4F
+$TWITTER_BLUE = #55ACEE
+$FACEBOOK_BLUE = #2E3F8B
+
+/**
+ * Mixins
+ */
+transform-center()
+  position absolute
+  left 50%
+  top 50%
+  transform translate(-50%, -50%)
+
+/**
+ * Global
+ */
+body
+  font 16px/1.5 $SANS_SERIF
+
+header
+  padding-top 1em
+  padding-botom 1em
+
+  .logo img
+      height 24px
+
+body
+.btn
+  font-weight 300
+
+/**
+ * Components
+ */
+
+// Buttons
+.btn
+  transition background-color 150ms ease-in-out
+  &.btn-facebook
+    background-color $FACEBOOK_BLUE
+    border-color darken($FACEBOOK_BLUE, 5%)
+    color #fff
+  &.btn-twitter
+    background-color $TWITTER_BLUE
+    border-color darken($TWITTER_BLUE, 5%)
+    color #fff
+  .glyphicon
+  .fa
+    + span
+      margin-left .5em
+
+// ImagePreview component
+.image-preview
+  height 440px
+  position relative
+  img
+    max-height 360px
+    transform-center()
+
+// WebLoader component
+.modal
+  &.fade
+    .modal-dialog
+      transform translate(0, 100%) scale(0.5)
+      // transition transform 0.25s ease-out
+    &.in
+      .modal-dialog
+        transform translate(0, 50%) scale(1)
+
+.modal-content
+  background-color #f6f6f6
+
+.modal-backdrop
+  background-color $BLUE
+  &.in
+    opacity 0.9
+    filter unquote('alpha(opacity=90)')
