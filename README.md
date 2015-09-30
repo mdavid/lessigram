@@ -35,6 +35,40 @@ Build a Facebook/Twitter integration to allow a user to add the Lessig flag icon
 ![Example 3](https://github.com/Lessig2016/lessigram/blob/master/resources/examples/lessigram3_360.jpg)
 ![Example 4](https://github.com/Lessig2016/lessigram/blob/master/resources/examples/lessigram4_360.jpg)
 
+## Installation
+
+1. Clone the repository.
+
+    ```
+    git clone https://github.com/Lessig2016/lessigram.git
+    ```
+
+2. Open the application directory.
+
+    ```
+    cd lessigram
+    ```
+
+3. Install dependencies.
+
+    ```
+    npm i
+    ```
+
+## Getting Started
+
+1. Initialize the build and start the server.
+
+    ```
+    npm start
+    ```
+
+2. Navigate to [http://localhost:8440](http://localhost:8440).
+
+3. Open the application directory in your text editor and start hacking democracy!
+
+*Known issue: build errors currently require a restart of the server. Fix in progress.*
+
 ## Code of Conduct
 
 The Lessig Equal Citizens Exploratory Committee is committed to fostering an open and inclusive community where engaged, dedicated volunteers can build the strategy and tools necessary to fix our country's democracy. All members of the community are expected to behave with civility, speak honestly and treat one another respectfully.
