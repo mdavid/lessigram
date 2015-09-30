@@ -2,7 +2,9 @@
 
 # Custom ignores
 
-build
+# Reintroducing build directory for subtree branches to gh-pages
+# @see https://gist.github.com/cobyism/4730490
+# build
 
 ################################################################################
 
